@@ -362,7 +362,7 @@ function resetNui() {
 		if (!isCustomizing) return;
 		$(".menu").classList.remove("show");
 		isCustomizing = false;
-		fetch("https://skys_notifications/close");
+		fetch("https://lforge_notifications/close");
 	});
 
 	window.addEventListener("keydown", function (e) {
@@ -371,7 +371,7 @@ function resetNui() {
 			e.preventDefault();
 			$(".menu").classList.remove("show");
 			isCustomizing = false;
-			fetch("https://skys_notifications/close");
+			fetch("https://lforge_notifications/close");
 		}
 	});
 

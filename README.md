@@ -1,8 +1,8 @@
-# skys_notifications
+# lforge_notifications
 
 <div align="center">
 
-<img src="https://images.weserv.nl/?url=cdn.discordapp.com/icons/1092133908583288933/df2166cf0bfd95dc46e50998ba3e2539.webp?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" alt="skyslogo" width="100" height="100"/>
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/183397800?s=200&v=4?v=4&h=300&w=300&fit=cover" alt="LionForge Studio" width="100" height="100"/>
 <br>
 <br>
 </div>
@@ -15,11 +15,11 @@
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=flat)
 ![Lua Badge](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=fff&style=flat)
 <br/>
-![GitHub stars](https://img.shields.io/github/stars/SkyStoreOFL/skys_notifications)
-![GitHub issues](https://img.shields.io/github/issues/SkyStoreOFL/skys_notifications)
-![GitHub forks](https://img.shields.io/github/forks/SkyStoreOFL/skys_notifications)
-![GitHub PRs](https://img.shields.io/github/issues-pr/SkyStoreOFL/skys_notifications)
-<a href="https://discord.gg/EuWWfcAMWF" title=""><img alt="Discord Status" src="https://discordapp.com/api/guilds/1092133908583288933/widget.png"></a>
+![GitHub stars](https://img.shields.io/github/stars/LionForgeStudio/lforge_notifications)
+![GitHub issues](https://img.shields.io/github/issues/LionForgeStudio/lforge_notifications)
+![GitHub forks](https://img.shields.io/github/forks/LionForgeStudio/lforge_notifications)
+![GitHub PRs](https://img.shields.io/github/issues-pr/LionForgeStudio/lforge_notifications)
+<a href="https://discord.gg/XyHp5GSXjx" title=""><img alt="Discord Status" src="https://discordapp.com/api/guilds/1261767435074146345/widget.png"></a>
 
 </div>
 
@@ -30,18 +30,18 @@ This FiveM notification script provides fully configurable notifications for eac
 
 ## 📢 Features
 
--   Mute/unmute notification sounds.
--   Change volume of notification sounds.
--   Change notification position to one of our presets.
--   Modern and fluid.
--   Semitransparent to not intefere with the screen content.
--   Customization interface.
--   Totaly Open-Source
--   Fluid in-out animations.
+- Mute/unmute notification sounds.
+- Change volume of notification sounds.
+- Change notification position to one of our presets.
+- Modern and fluid.
+- Semitransparent to not intefere with the screen content.
+- Customization interface.
+- Totaly Open-Source
+- Fluid in-out animations.
 
 ## ⚙️ Installation
 
-Access to the <a href="https://skystore.gitbook.io/sky-store/paid-scripts/skys-notifications">docs</a> to know how to install and set up the script.
+Access to the <a href="https://lionforge.gitbook.io/lionforge-studio/paid-scripts/lforge-notifications">docs</a> to know how to install and set up the script.
 
 ## 📷 Showcase
 
@@ -51,23 +51,23 @@ Access to the <a href="https://skystore.gitbook.io/sky-store/paid-scripts/skys-n
 
 ### Info
 
-https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/info.mp3?raw=true
+https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/info.mp3?raw=true
 
 ### Success
 
-https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/success.mp3?raw=true
+https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/success.mp3?raw=true
 
 ### Error
 
-https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/error.mp3?raw=true
+https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/error.mp3?raw=true
 
 ### Warning
 
-https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/warning.mp3?raw=true
+https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/warning.mp3?raw=true
 
 ### Bank
 
-https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/bank.mp3?raw=true
+https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/bank.mp3?raw=true
 
 ## 🧞 Commands
 
@@ -95,6 +95,6 @@ https://github.com/SkyStoreOFL/skys_notifications/blob/main/html/sounds/bank.mp3
 
 ## 🤝 Contributing
 
-<a href="https://github.com/SkyStoreOFL/skys_notifications/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SkyStoreOFL/skys_notifications" />
+<a href="https://github.com/LionForgeStudio/lforge_notifications/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LionForgeStudio/lforge_notifications" />
 </a>
