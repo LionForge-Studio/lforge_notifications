@@ -15,10 +15,10 @@
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=flat)
 ![Lua Badge](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=fff&style=flat)
 <br/>
-![GitHub stars](https://img.shields.io/github/stars/LionForgeStudio/lforge_notifications)
-![GitHub issues](https://img.shields.io/github/issues/LionForgeStudio/lforge_notifications)
-![GitHub forks](https://img.shields.io/github/forks/LionForgeStudio/lforge_notifications)
-![GitHub PRs](https://img.shields.io/github/issues-pr/LionForgeStudio/lforge_notifications)
+![GitHub stars](https://img.shields.io/github/stars/LionForge-Studio/lforge_notifications)
+![GitHub issues](https://img.shields.io/github/issues/LionForge-Studio/lforge_notifications)
+![GitHub forks](https://img.shields.io/github/forks/LionForge-Studio/lforge_notifications)
+![GitHub PRs](https://img.shields.io/github/issues-pr/LionForge-Studio/lforge_notifications)
 <a href="https://discord.gg/XyHp5GSXjx" title=""><img alt="Discord Status" src="https://discordapp.com/api/guilds/1261767435074146345/widget.png"></a>
 
 </div>
@@ -51,23 +51,23 @@ Access to the <a href="https://lionforge.gitbook.io/lionforge-studio/paid-script
 
 ### Info
 
-https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/info.mp3?raw=true
+https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/info.mp3?raw=true
 
 ### Success
 
-https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/success.mp3?raw=true
+https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/success.mp3?raw=true
 
 ### Error
 
-https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/error.mp3?raw=true
+https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/error.mp3?raw=true
 
 ### Warning
 
-https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/warning.mp3?raw=true
+https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/warning.mp3?raw=true
 
 ### Bank
 
-https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/bank.mp3?raw=true
+https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/bank.mp3?raw=true
 
 ## 🧞 Commands
 
@@ -95,6 +95,6 @@ https://github.com/LionForgeStudio/lforge_notifications/blob/main/html/sounds/ba
 
 ## 🤝 Contributing
 
-<a href="https://github.com/LionForgeStudio/lforge_notifications/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LionForgeStudio/lforge_notifications" />
+<a href="https://github.com/LionForge-Studio/lforge_notifications/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LionForge-Studio/lforge_notifications" />
 </a>
