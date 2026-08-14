@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/183397800?s=200&v=4?v=4&h=300&w=300&fit=cover" alt="LionForge Studio" width="100" height="100"/>
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/183397800?s=200&v=4?v=4&h=300&w=300&fit=cover" alt="LionForge" width="100" height="100"/>
 <br>
 <br>
 </div>
@@ -15,10 +15,10 @@
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=flat)
 ![Lua Badge](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=fff&style=flat)
 <br/>
-![GitHub stars](https://img.shields.io/github/stars/LionForge-Studio/lforge_notifications)
-![GitHub issues](https://img.shields.io/github/issues/LionForge-Studio/lforge_notifications)
-![GitHub forks](https://img.shields.io/github/forks/LionForge-Studio/lforge_notifications)
-![GitHub PRs](https://img.shields.io/github/issues-pr/LionForge-Studio/lforge_notifications)
+![GitHub stars](https://img.shields.io/github/stars/LionForge5M/lforge_notifications)
+![GitHub issues](https://img.shields.io/github/issues/LionForge5M/lforge_notifications)
+![GitHub forks](https://img.shields.io/github/forks/LionForge5M/lforge_notifications)
+![GitHub PRs](https://img.shields.io/github/issues-pr/LionForge5M/lforge_notifications)
 <a href="https://discord.gg/XyHp5GSXjx" title=""><img alt="Discord Status" src="https://discordapp.com/api/guilds/1261767435074146345/widget.png"></a>
 
 </div>
@@ -41,7 +41,7 @@ This FiveM notification script provides fully configurable notifications for eac
 
 ## ⚙️ Installation
 
-Access to the <a href="https://lionforge.gitbook.io/lionforge-studio/paid-scripts/lforge-notifications">docs</a> to know how to install and set up the script.
+Access to the <a href="https://lionforge.gitbook.io/LionForge5M/paid-scripts/lforge-notifications">docs</a> to know how to install and set up the script.
 
 ## 📷 Showcase
 
@@ -51,23 +51,23 @@ Access to the <a href="https://lionforge.gitbook.io/lionforge-studio/paid-script
 
 ### Info
 
-https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/info.mp3?raw=true
+https://github.com/LionForge5M/lforge_notifications/blob/main/html/sounds/info.mp3?raw=true
 
 ### Success
 
-https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/success.mp3?raw=true
+https://github.com/LionForge5M/lforge_notifications/blob/main/html/sounds/success.mp3?raw=true
 
 ### Error
 
-https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/error.mp3?raw=true
+https://github.com/LionForge5M/lforge_notifications/blob/main/html/sounds/error.mp3?raw=true
 
 ### Warning
 
-https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/warning.mp3?raw=true
+https://github.com/LionForge5M/lforge_notifications/blob/main/html/sounds/warning.mp3?raw=true
 
 ### Bank
 
-https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/bank.mp3?raw=true
+https://github.com/LionForge5M/lforge_notifications/blob/main/html/sounds/bank.mp3?raw=true
 
 ## 🧞 Commands
 
@@ -95,6 +95,6 @@ https://github.com/LionForge-Studio/lforge_notifications/blob/main/html/sounds/b
 
 ## 🤝 Contributing
 
-<a href="https://github.com/LionForge-Studio/lforge_notifications/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LionForge-Studio/lforge_notifications" />
+<a href="https://github.com/LionForge5M/lforge_notifications/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LionForge5M/lforge_notifications" />
 </a>
