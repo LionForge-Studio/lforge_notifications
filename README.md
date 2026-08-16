@@ -10,10 +10,10 @@
 <div align="center">
 
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-B19111?logo=javascript&logoColor=fff&style=flat)
-![CSS Badge](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff&style=flat)
-![Static Badge](https://img.shields.io/badge/mission-Making_your_live_easier-blue)
+![CSS Badge](https://img.shields.io/badge/CSS-663399?logo=css&logoColor=fff&style=flat)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=flat)
-![Lua Badge](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=fff&style=flat)
+![Lua Badge](https://img.shields.io/badge/Lua-00007C?logo=lua&logoColor=fff&style=flat)
+![Missin Badge](https://img.shields.io/badge/Mission-Forging_your_solutions-orange)
 <br/>
 ![GitHub stars](https://img.shields.io/github/stars/LionForge5M/lforge_notifications)
 ![GitHub issues](https://img.shields.io/github/issues/LionForge5M/lforge_notifications)
@@ -45,7 +45,7 @@ Access to the <a href="https://lionforge.gitbook.io/LionForge5M/paid-scripts/lfo
 
 ## 📷 Showcase
 
-![notification panel and notifications](resources/image.png)
+![notification panel and notifications](.github/resources/image.png)
 
 ## 🔊 Sounds
 
