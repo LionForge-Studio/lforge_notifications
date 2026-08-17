@@ -61,8 +61,8 @@ body:
           label: Game
           description: Select your GTA / Game version.
           options:
-              - 'GTAV (Enhanced)'
               - 'GTA (Legacy)'
+              - 'GTAV (Enhanced)'
       validations:
           required: true
 
