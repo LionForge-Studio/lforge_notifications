@@ -2,6 +2,7 @@ name: 💡 Feature request
 description: Suggest an idea for this script
 title: '[SUGGESTION]: '
 labels: enhancement
+type: feature
 body:
     - type: markdown
       attributes:
