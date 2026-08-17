@@ -1,6 +1,6 @@
 name: 💡 Feature request
 description: Suggest an idea for this script
-title: '[SUGGESTION]'
+title: '[SUGGESTION]: '
 labels: enhancement
 body:
     - type: markdown
