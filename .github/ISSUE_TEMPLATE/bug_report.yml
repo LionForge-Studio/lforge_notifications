@@ -1,0 +1,84 @@
+name: 🐞 Bug report
+description: Create a report to help us improve or fix something
+title: '[BUG]: '
+labels: ['bug']
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thank you for taking the time to fill out a bug report!
+              Please use our Discord Server to ask questions and receive support: https://discord.gg/XyHp5GSXjx
+
+    - type: input
+      id: summary
+      attributes:
+          label: Summary
+          description: Write a short and concise description of your bug.
+      validations:
+          required: true
+
+    - type: textarea
+      id: repro
+      attributes:
+          label: Reproduction
+          description: What did you do to make this happen?
+          placeholder: |
+              1. Using ...
+              2. Do ...
+              3. Then use ...
+              4. See error
+      validations:
+          required: true
+
+    - type: textarea
+      id: expected
+      attributes:
+          label: Expected behavior
+          description: What did you expect to happen?
+      validations:
+          required: true
+
+    - type: textarea
+      id: actual
+      attributes:
+          label: Actual behavior
+          description: What actually happened?
+      validations:
+          required: true
+
+    - type: input
+      id: script-version
+      attributes:
+          label: Script version
+          description: What version of the script are you running?
+          placeholder: 'e.g. v1.2.0'
+      validations:
+          required: true
+
+    - type: dropdown
+      id: game-build
+      attributes:
+          label: Game
+          description: Select your GTA / Game version.
+          options:
+              - 'GTAV (Enhanced)'
+              - 'GTA (Legacy)'
+      validations:
+          required: true
+
+    - type: input
+      id: fxserver-version
+      attributes:
+          label: FXServer Version number
+          description: Enter the FXServer artifact version number.
+          placeholder: 'e.g. 10123'
+      validations:
+          required: true
+
+    - type: textarea
+      id: additional
+      attributes:
+          label: Additional context
+          description: If you have any other context about the problem such as screenshots or videos, add them here.
+      validations:
+          required: false
