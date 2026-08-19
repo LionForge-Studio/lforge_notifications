@@ -1,10 +1,7 @@
-import type { Position } from '@/types/Position';
+import { useSettings } from '@/context/SettingsContext';
 
-export function Settings({
-	position,
-}: {
-	position: Position;
-	setPosition: (position: Position) => void;
-}) {
+export function Settings() {
+	const { position } = useSettings();
+
 	return <div>position: {position}</div>;
 }

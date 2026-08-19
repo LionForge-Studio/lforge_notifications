@@ -1,9 +1,9 @@
 import type { Notification as NotificationType } from '@/types/Notification';
 import STYLES from './index.module.css';
 import { NOTIFICATION_ICONS, DEFAULT_NOTIFICATION_DURATION } from '@/constants/notifications';
-import { DynamicIcon, iconNames, type IconName } from 'lucide-react/dynamic';
-import { useEffect, useRef } from 'react';
-import { useVolume } from '@/hooks/useVolume';
+import { useEffect, useRef } from 'preact/hooks';
+import { Icon } from '@iconify/react';
+import { useSettings } from '@/context/SettingsContext';
 
 interface NotificationProps {
 	notification: NotificationType;
@@ -11,13 +11,19 @@ interface NotificationProps {
 	position: string;
 }
 
-const getIcon = (notification: NotificationType): React.JSX.Element => {
-	const isIconName = notification.icon && iconNames.includes(notification.icon as IconName);
-	if (!notification.icon || !isIconName) {
+const getIcon = (notification: NotificationType): preact.JSX.Element => {
+	if (!notification.icon) {
 		const FallbackIcon = NOTIFICATION_ICONS[notification.type];
 		return <FallbackIcon className={STYLES.notificationIcon} />;
 	}
-	return <DynamicIcon name={notification.icon as IconName} className={STYLES.notificationIcon} />;
+	return (
+		<Icon
+			icon={notification.icon ?? 'stash:question-light'}
+			className={STYLES.notificationIcon}
+			width="24"
+			height="24"
+		/>
+	);
 };
 
 export function Notification({ notification, onComplete, position }: NotificationProps) {
@@ -25,7 +31,7 @@ export function Notification({ notification, onComplete, position }: Notificatio
 	const notificationRef = useRef<HTMLDivElement>(null);
 	const onCompleteRef = useRef(onComplete);
 	onCompleteRef.current = onComplete;
-	const [volume] = useVolume();
+	const { volume } = useSettings();
 
 	useEffect(() => {
 		let removeTimer: ReturnType<typeof setTimeout> | undefined;

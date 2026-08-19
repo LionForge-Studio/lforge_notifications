@@ -1,15 +1,14 @@
 import { Display } from '@/views/display';
 import { Settings } from '@/views/settings';
-import { usePosition } from '@/hooks/usePositions';
-import { useEffect } from 'react';
+import { useEffect } from 'preact/hooks';
 import useNuiEvent from '@/hooks/useNuiEvents';
 import { isEnvBrowser } from '@/utils/misc';
 import { NOTIFICATION_TYPES } from '@/constants/notifications';
 import type { Notification } from '@/types/Notification';
 import { useQueue } from '@/hooks/useQueue';
+import { SettingsProvider } from './context/SettingsContext';
 
 export function App() {
-	const { position, setPosition } = usePosition();
 	const queue = useQueue<Notification>();
 
 	useEffect(() => {
@@ -47,6 +46,7 @@ export function App() {
 					id: '1236',
 					title: 'Notification3',
 					message: 'Notification3',
+					icon: 'material-symbols-light:captive-portal-rounded',
 					type: NOTIFICATION_TYPES.ERROR,
 					duration: 5000,
 				});
@@ -91,8 +91,10 @@ export function App() {
 
 	return (
 		<>
-			<Display position={position} queue={queue} />
-			<Settings position={position} setPosition={setPosition} />
+			<SettingsProvider>
+				<Display queue={queue} />
+				<Settings />
+			</SettingsProvider>
 		</>
 	);
 }

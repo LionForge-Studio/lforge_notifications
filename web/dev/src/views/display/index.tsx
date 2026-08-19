@@ -1,17 +1,17 @@
-import type { Position } from '@/types/Position';
 import type { Notification as NotificationType } from '@/types/Notification';
 import STYLES from './index.module.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 import { MAX_ACTIVE_NOTIFICATIONS } from '@/constants/notifications';
 import { Notification } from '@/components/Notification';
 import { useQueue } from '@/hooks/useQueue';
+import { useSettings } from '@/context/SettingsContext';
 
 export interface DisplayProps {
-	position: Position;
 	queue: ReturnType<typeof useQueue<NotificationType>>;
 }
 
-export function Display({ position, queue }: DisplayProps) {
+export function Display({ queue }: DisplayProps) {
+	const { position } = useSettings();
 	const [activeNotifications, setActiveNotifications] = useState<NotificationType[]>([]);
 
 	useEffect(() => {
@@ -35,7 +35,6 @@ export function Display({ position, queue }: DisplayProps) {
 		<div id="notification-display" className={STYLES.wrapper} data-position={position}>
 			{activeNotifications.map((notification) => (
 				<Notification
-					key={notification.id}
 					notification={notification}
 					onComplete={() => handleNotificationComplete(notification.id)}
 					position={position}
