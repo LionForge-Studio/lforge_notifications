@@ -1,5 +1,5 @@
 import { DEFAULT_VOLUME } from '@/constants/notifications';
-import { useCallback, useState } from 'react';
+import { useCallback, useState } from 'preact/hooks';
 
 const STORAGE_KEY = 'lforge_notifications:volume';
 

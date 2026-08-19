@@ -1,13 +1,10 @@
 import { defineConfig } from 'vite';
-import react, { reactCompilerPreset } from '@vitejs/plugin-react';
-import babel from '@rolldown/plugin-babel';
+import preact from '@preact/preset-vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-	plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
+	plugins: [preact()],
 	resolve: {
-		alias: {
-			'@': '/src',
-		},
+		alias: [{ find: '@', replacement: '/src' }],
 	},
 });

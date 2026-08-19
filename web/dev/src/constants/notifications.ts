@@ -5,7 +5,7 @@ import {
 	Info,
 	TriangleAlert,
 	type LucideIcon,
-} from 'lucide-react';
+} from 'lucide-preact';
 import type { NotificationType } from '@/types/Notification';
 
 export const NOTIFICATION_TYPES = {

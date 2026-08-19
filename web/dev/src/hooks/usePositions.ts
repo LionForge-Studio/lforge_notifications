@@ -1,6 +1,6 @@
 import { POSITIONS } from '@/constants/positions';
 import type { Position } from '@/types/Position';
-import { useCallback, useState } from 'react';
+import { useCallback, useState } from 'preact/hooks';
 
 const STORAGE_KEY = 'lforge_notifications:position';
 

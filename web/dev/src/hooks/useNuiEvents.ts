@@ -1,4 +1,5 @@
-import { type RefObject, useEffect, useRef } from 'react';
+import { type RefObject } from 'preact';
+import { useEffect, useRef } from 'preact/hooks';
 import { noop } from '@/utils/misc';
 
 interface NuiMessageData<T = unknown> {
