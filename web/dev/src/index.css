@@ -2,7 +2,7 @@
 	font-family: 'Swansea';
 	font-style: normal;
 	font-weight: 400;
-	src: url(./fonts/Swansea-q3pd.ttf) format('truetype');
+	src: url('/fonts/Swansea-q3pd.ttf') format('truetype');
 }
 
 *,

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { MAX_ACTIVE_NOTIFICATIONS } from '@/constants/notifications';
 import { Notification } from '@/components/Notification';
 import { useQueue } from '@/hooks/useQueue';
-import { useSettings } from '@/context/SettingsContext';
+import { useSettings } from '@/context/SettingsContext/useSettings';
 
 export interface DisplayProps {
 	queue: ReturnType<typeof useQueue<NotificationType>>;
@@ -23,7 +23,7 @@ export function Display({ queue }: DisplayProps) {
 		const nextBatch = queue.items.slice(0, availableSlots);
 		queue.setItems((prev) => prev.slice(availableSlots));
 		setActiveNotifications((prev) => [...prev, ...nextBatch]);
-	}, [queue.items, activeNotifications.length]);
+	}, [queue.items, activeNotifications.length, queue]);
 
 	const handleNotificationComplete = (id: string) => {
 		setActiveNotifications((prev) => prev.filter((n) => n.id !== id));
@@ -35,6 +35,7 @@ export function Display({ queue }: DisplayProps) {
 		<div id="notification-display" className={STYLES.wrapper} data-position={position}>
 			{activeNotifications.map((notification) => (
 				<Notification
+					key={notification.id}
 					notification={notification}
 					onComplete={() => handleNotificationComplete(notification.id)}
 					position={position}

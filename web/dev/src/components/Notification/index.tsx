@@ -3,7 +3,7 @@ import STYLES from './index.module.css';
 import { NOTIFICATION_ICONS, DEFAULT_NOTIFICATION_DURATION } from '@/constants/notifications';
 import { useEffect, useRef } from 'preact/hooks';
 import { Icon } from '@iconify/react';
-import { useSettings } from '@/context/SettingsContext';
+import { useSettings } from '@/context/SettingsContext/useSettings';
 
 interface NotificationProps {
 	notification: NotificationType;
@@ -30,7 +30,9 @@ export function Notification({ notification, onComplete, position }: Notificatio
 	const icon = getIcon(notification);
 	const notificationRef = useRef<HTMLDivElement>(null);
 	const onCompleteRef = useRef(onComplete);
-	onCompleteRef.current = onComplete;
+	useEffect(() => {
+		onCompleteRef.current = onComplete;
+	}, [onComplete]);
 	const { volume } = useSettings();
 
 	useEffect(() => {
@@ -52,8 +54,8 @@ export function Notification({ notification, onComplete, position }: Notificatio
 	useEffect(() => {
 		const audio = new Audio(`/sounds/${notification.type}.mp3`);
 		audio.volume = volume;
-		audio.play();
-	}, []);
+		void audio.play().catch(() => {});
+	}, [notification.type, volume]);
 
 	return (
 		<article

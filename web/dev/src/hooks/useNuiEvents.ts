@@ -26,6 +26,7 @@ export const useNuiEvent = <T>(action: string, handler: (data: T) => void) => {
 
 	// When handler value changes set mutable ref to handler val
 	useEffect(() => {
+		// oxlint-disable-next-line react/immutability
 		savedHandler.current = handler;
 	}, [handler]);
 
