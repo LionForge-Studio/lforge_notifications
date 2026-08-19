@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Swansea';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./fonts/Swansea-q3pd.ttf) format('truetype');
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Swansea', Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+
+body {
+	width: 100vw;
+	height: 100dvh;
+	overflow: hidden;
+}

@@ -1,0 +1,78 @@
+:root {
+	--wrapper-height: 40dvh;
+	--wrapper-width: 20vw;
+	--safe-margin: 1.5rem;
+}
+
+.wrapper {
+	position: absolute;
+	width: var(--wrapper-width);
+	height: var(--wrapper-height);
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	pointer-events: none;
+	z-index: 90;
+	transition:
+		top 0.25s ease,
+		left 0.25s ease,
+		right 0.25s ease,
+		bottom 0.25s ease,
+		transform 0.25s ease;
+	box-sizing: border-box;
+}
+
+.wrapper[data-position='top-left'] {
+	top: var(--safe-margin);
+	left: var(--safe-margin);
+	align-items: flex-start;
+}
+
+.wrapper[data-position='top-center'] {
+	top: var(--safe-margin);
+	left: 50%;
+	transform: translateX(-50%);
+	align-items: center;
+}
+
+.wrapper[data-position='top-right'] {
+	top: var(--safe-margin);
+	right: var(--safe-margin);
+	align-items: flex-end;
+}
+
+.wrapper[data-position='left-center'] {
+	top: 50%;
+	left: var(--safe-margin);
+	transform: translateY(-50%);
+	align-items: flex-start;
+}
+
+.wrapper[data-position='right-center'] {
+	top: 50%;
+	right: var(--safe-margin);
+	transform: translateY(-50%);
+	align-items: flex-end;
+}
+
+.wrapper[data-position='bottom-left'] {
+	bottom: var(--safe-margin);
+	left: var(--safe-margin);
+	flex-direction: column-reverse;
+	align-items: flex-start;
+}
+
+.wrapper[data-position='bottom-center'] {
+	bottom: var(--safe-margin);
+	left: 50%;
+	transform: translateX(-50%);
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.wrapper[data-position='bottom-right'] {
+	bottom: var(--safe-margin);
+	right: var(--safe-margin);
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
